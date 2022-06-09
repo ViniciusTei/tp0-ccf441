@@ -5,11 +5,10 @@ Este trabalho tem como objetivo introduzir a ferramenta flex (um lex mais recent
 
 ## Descrição
 
-Nesse trabalho devemos contruir dois arquivos lex para reconhecer padrões. O primeiro chamado ==lex.l== deve conter as definições listadas na especificação do trabalho, e rodar os casos testes esperados. O segundo deve conter as expressões regulares definidas por mim e especificadas no relatório a ser entregue.
+Nesse trabalho devemos contruir dois arquivos lex para reconhecer padrões. O primeiro chamado *lex.l* deve conter as definições listadas na especificação do trabalho, e rodar os casos testes esperados. O segundo deve conter as expressões regulares definidas por mim e especificadas no relatório a ser entregue.
 
 - [x] lex.l
 - [ ] lex2.l
-
 
 ## To-do
 
@@ -28,4 +27,12 @@ No arquivo lex2.l você deve fazer um analisador léxico que reconheça outros p
 
 Padrões a serem reconhecidos pelo lex2:
 
-- [ ]
+- [ ] Todas as palavras de letras minusculas que contem os cinco vogais em ordem
+- [ ]  todas as cadeias de caracteres que estão na ordem alfabetica corretamente
+- [ ] um comentário na na forma /* alguma coisa */
+- [ ] todas as cadeias de digitos sem digitos repetidos
+- [ ] todas as cadeias com no maximo um digito repetido
+- [ ] todas as cadas de as e bs com um numero par de as e um numero impar de bs
+- [ ] todas as cadeias de caracters com um formato de cpf (111.111.111-11)
+- [ ] todas as cadeias de caractesr que casam com o a palvra-chave - 'const'
+- [ ] todas as cadeias de caracters que representam operadores relacionais (< | > | <= | => | = | !=)
