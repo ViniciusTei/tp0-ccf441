@@ -27,12 +27,11 @@ No arquivo lex2.l você deve fazer um analisador léxico que reconheça outros p
 
 Padrões a serem reconhecidos pelo lex2:
 
-- [ ] Todas as palavras de letras minusculas que contem os cinco vogais em ordem
-- [ ]  todas as cadeias de caracteres que estão na ordem alfabetica corretamente
-- [ ] um comentário na na forma /* alguma coisa */
+- [x] Todas as palavras de letras maiusculas que contem os cinco vogais em ordem
+- [ ] todas as cadeias de caracteres que estão na ordem alfabetica corretamente
+- [x] um comentário na na forma /* alguma coisa */
 - [ ] todas as cadeias de digitos sem digitos repetidos
-- [ ] todas as cadeias com no maximo um digito repetido
-- [ ] todas as cadas de as e bs com um numero par de as e um numero impar de bs
-- [ ] todas as cadeias de caracters com um formato de cpf (111.111.111-11)
-- [ ] todas as cadeias de caractesr que casam com o a palvra-chave - 'const'
+- [x] todas as cadeias com o fomarto de email
+- [x] todas as cadeias de caracters com um formato de cpf (111.111.111-11)
+- [x] todas as cadeias de caractesres com uma data no formato dd/mm/aaaa
 - [ ] todas as cadeias de caracters que representam operadores relacionais (< | > | <= | => | = | !=)

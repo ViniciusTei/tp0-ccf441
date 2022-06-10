@@ -9,11 +9,12 @@ CC = gcc
 
 LEX =	lex
 
-all:
+lex:
 	$(LEX) $(SRC)/lex.l
-
-run:
+	$(CC) lex.yy.c
 	./$(TARGET) < $(SRC)/entrada.txt
 
-gcc:
+lex2:
+	$(LEX) $(SRC)/lex2.l
 	$(CC) lex.yy.c
+	./$(TARGET) < $(SRC)/entrada2.txt
