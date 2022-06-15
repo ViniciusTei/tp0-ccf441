@@ -7,7 +7,7 @@ SRC = ./src
 #compilador
 CC = gcc
 
-LEX =	lex
+LEX =	flex
 
 lex:
 	$(LEX) $(SRC)/lex.l
